@@ -1,0 +1,22 @@
+{
+  "name": "car-shop-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "start:mysql": "node legacy-mysql/server.js",
+    "dev:mysql": "node --watch legacy-mysql/server.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.2",
+    "pg": "^8.20.0"
+  }
+}
