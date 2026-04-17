@@ -1,7 +1,7 @@
 <template>
   <section>
     <p class="eyebrow">Кошик</p>
-    <h1 class="page-title">Ваш будуар замовлень</h1>
+    <h1 class="page-title">Ваші замовлення</h1>
     <p class="meta page-lead">
       Перевірте обрані моделі та оформіть замовлення. Доставка по Україні до 24 годин.
     </p>
